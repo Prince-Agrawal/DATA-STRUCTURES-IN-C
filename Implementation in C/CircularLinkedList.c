@@ -21,6 +21,7 @@ void create()
 	else if(temp->right==NULL)
 	{
 	p->left=temp;
+		
 	p->right=NULL;
 	temp->right=p;
 	temp=temp->right;	
